@@ -1,3 +1,5 @@
+## 🚧 WIP - (Work in Progress / Em construção)
+
 # Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner
 
 Bem-vindo ao repositório que servirá como seu guia completo para a certificação AWS Certified AI Practitioner. Aqui, você encontrará informações essenciais sobre o exame, recursos de estudo recomendados e uma estrutura de aprendizado para auxiliá-lo em sua jornada rumo à certificação.
