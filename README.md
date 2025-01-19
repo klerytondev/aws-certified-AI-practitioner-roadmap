@@ -2,7 +2,7 @@
 
 <h1 align="center">
     <br>
-    Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner
+    Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner |AIF-C01
 </h1>
 
 
@@ -26,15 +26,6 @@ Bem-vindo ao repositório que servirá como seu guia completo para a certificaç
 - [Estrutura do Exame](#estrutura-do-exame)
 - [Domínios do Exame](#domínios-do-exame)
 - [Recursos de Estudo](#recursos-de-estudo)
-- [Resumo Rápido por Tópico](#resumo-rápido-por-tópico)
-  - [Fundamentos de Machine Learning](#fundamentos-de-machine-learning)
-  - [Métricas de Avaliação de Modelos](#métricas-de-avaliação-de-modelos)
-  - [Serviços da AWS para IA](#serviços-da-aws-para-ia)
-  - [IA Generativa](#ia-generativa)
-  - [Implementação Responsável de IA](#implementação-responsável-de-ia)
-  - [Casos de Uso de Negócios](#casos-de-uso-de-negócios)
-  - [Considerações de Custo](#considerações-de-custo)
-  - [Segurança e Governança](#segurança-e-governança)
 - [Plano de Estudo Sugerido](#plano-de-estudo-sugerido)
 - [Dicas para o Exame](#dicas-para-o-exame)
 - [📋 Resumo Rápido](#resumo-rápido)
@@ -96,55 +87,11 @@ Para uma preparação eficaz, recomenda-se os seguintes recursos:
   - [Fundamentos de Machine Learning na AWS](https://explore.skillbuilder.aws/learn/course/external/view/elearning/133/machine-learning-fundamentals-portuguese)
 
 - **Cursos Pagos:**
-  - [AWS Certified AI Practitioner Exam Training](https://www.udemy.com/course/aws-certified-ai-practitioner/)
-  - [Práticas de IA na AWS](https://www.coursera.org/learn/aws-ai)
+  - [AWS Certified AI Practitioner Exam Training (Português)](https://www.udemy.com/course/certificacao-amazon-aws-ai-practitioner/)
+  - [AWS Certified AI Practitioner AIF-C01 (Inglês)](https://www.udemy.com/course/aws-ai-practitioner-certified/)
 
 - **Documentação Oficial:**
-  - [Guia do Exame AWS Certified AI Practitioner](https://d1.awsstatic.com/training-and-certification/docs-ai/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
-
-## Resumo Rápido por Tópico
-
-### Fundamentos de Machine Learning
-
-- **Acurácia**: Mede a proporção de previsões corretas.
-- **Mitigação de Sobreajuste**: Aumentar dados de treinamento reduz sobreajuste.
-- **Viés**: Viés de amostragem ocorre com dados não representativos.
-- **Dados Rotulados vs Não Rotulados**: Dados rotulados são usados em aprendizado supervisionado, enquanto os não rotulados são aplicados no aprendizado não supervisionado.
-
-### Métricas de Avaliação de Modelos
-
-- **F1-Score**: Combina precisão e recall.
-- **BLEU e ROUGE**: Avaliam qualidade de traduções e resumos.
-- **Acurácia, Precisão e Recall**: Avaliam modelos de classificação.
-
-### Serviços da AWS para IA
-
-- **Amazon SageMaker**: Desenvolvimento de modelos ML.
-- **Amazon Rekognition**: Análise de imagens e vídeos.
-- **Amazon Comprehend**: Processamento de linguagem natural.
-
-### IA Generativa
-
-- **Amazon Bedrock**: Modelos de fundação para IA generativa.
-- **Engenharia de Prompt**: Criação de prompts eficazes para resultados desejados.
-
-### Implementação Responsável de IA
-
-- Minimização de viés e transparência no uso de modelos.
-
-### Casos de Uso de Negócios
-
-- **Chatbots**: Amazon Lex para atendimento ao cliente.
-- **Detecção de Fraudes**: Amazon Fraud Detector.
-
-### Considerações de Custo
-
-- **AWS Trainium**: Otimização de custos no treinamento de modelos grandes.
-
-### Segurança e Governança
-
-- **IAM**: Gerenciamento de identidades.
-- **KMS**: Proteção de dados com criptografia.
+  - [Guia do Exame AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
 
 ## Plano de Estudo Sugerido
 
@@ -178,11 +125,11 @@ Para uma preparação eficaz, recomenda-se os seguintes recursos:
 
 ## Resumo Rápido
 
-Confira um resumo rápido de conceitos e tópicos essenciais para o exame no arquivo [Resumo Rápido](contents/readme_resumo_rapido.md).
+Confira um resumo rápido de conceitos e tópicos essenciais para o exame na página [Resumo Rápido](contents/readme_resumo_rapido.md).
 
 ## Exemplos de Perguntas e Respostas
 
-Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perguntas e Respostas](contents/readme_perguntas.md).
+Explore exemplos práticos de perguntas e respostas na página [Exemplos de Perguntas e Respostas](contents/readme_perguntas.md).
 
 ## Links Úteis
 
@@ -196,4 +143,14 @@ Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vont
 
 ---
 
-Elaborado por Kleryton de Souza
+### Autor
+---
+<a href="https://github.com/klerytondev/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/klerytondev" width="100px;" alt=""/>
+ <br />
+ <h3><b>Kleryton Souza</b></h3> <a>
+
+Made by Kleryton de Souza 👋🏽 Entre em contato!
+
+[![Twitter Badge](https://img.shields.io/badge/-@SouzaKleryton-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/SouzaKleryton)](https://twitter.com/SouzaKleryton) [![Linkedin Badge](https://img.shields.io/badge/-kleryton-souza?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kleryton-souza-a1733673/)](https://www.linkedin.com/in/kleryton-souza-a1733673/) 
+[![Gmail Badge](https://img.shields.io/badge/kleryton.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kleryton.dev@gmail.com)](mailto:kleryton.dev@gmail.com)

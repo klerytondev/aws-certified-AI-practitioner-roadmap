@@ -1055,5 +1055,16 @@ Qual métrica é usada para avaliar a qualidade de um modelo de classificação 
 Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
-Elaborado por Kleryton de Souza
+
+### Autor
+---
+<a href="https://github.com/klerytondev/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/klerytondev" width="100px;" alt=""/>
+ <br />
+ <h3><b>Kleryton Souza</b></h3> <a>
+
+Made by Kleryton de Souza 👋🏽 Entre em contato!
+
+[![Twitter Badge](https://img.shields.io/badge/-@SouzaKleryton-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/SouzaKleryton)](https://twitter.com/SouzaKleryton) [![Linkedin Badge](https://img.shields.io/badge/-kleryton-souza?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kleryton-souza-a1733673/)](https://www.linkedin.com/in/kleryton-souza-a1733673/) 
+[![Gmail Badge](https://img.shields.io/badge/kleryton.dev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:kleryton.dev@gmail.com)](mailto:kleryton.dev@gmail.com)
 
