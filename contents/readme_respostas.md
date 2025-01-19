@@ -76,11 +76,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon SageMaker
 
+**[Pergunta](readme_perguntas.md#questão-1)**
+
 ---
 
 ### Questão 2
 
 **Resposta:** C) BLEU
+
+**[Pergunta](readme_perguntas.md#questão-2)**
 
 ---
 
@@ -88,11 +92,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Rekognition
 
+**[Pergunta](readme_perguntas.md#questão-3)**
+
 ---
 
 ### Questão 4
 
 **Resposta:** C) F1-Score
+
+**[Pergunta](readme_perguntas.md#questão-4)**
 
 ---
 
@@ -100,11 +108,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon Comprehend
 
+**[Pergunta](readme_perguntas.md#questão-5)**
+
 ---
 
 ### Questão 6
 
 **Resposta:** D) ROUGE
+
+**[Pergunta](readme_perguntas.md#questão-6)**
 
 ---
 
@@ -112,11 +124,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** D) Amazon Lex
 
+**[Pergunta](readme_perguntas.md#questão-7)**
+
 ---
 
 ### Questão 8
 
 **Resposta:** A) Acurácia
+
+**[Pergunta](readme_perguntas.md#questão-8)**
 
 ---
 
@@ -124,11 +140,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Polly
 
+**[Pergunta](readme_perguntas.md#questão-9)**
+
 ---
 
 ### Questão 10
 
 **Resposta:** D) Recall
+
+**[Pergunta](readme_perguntas.md#questão-10)**
 
 ---
 
@@ -136,11 +156,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon Comprehend
 
+**[Pergunta](readme_perguntas.md#questão-11)**
+
 ---
 
 ### Questão 12
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-12)**
 
 ---
 
@@ -148,11 +172,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon Transcribe
 
+**[Pergunta](readme_perguntas.md#questão-13)**
+
 ---
 
 ### Questão 14
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-14)**
 
 ---
 
@@ -160,11 +188,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon Translate
 
+**[Pergunta](readme_perguntas.md#questão-15)**
+
 ---
 
 ### Questão 16
 
 **Resposta:** B) Erro Médio Absoluto (MAE)
+
+**[Pergunta](readme_perguntas.md#questão-16)**
 
 ---
 
@@ -172,11 +204,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon SageMaker
 
+**[Pergunta](readme_perguntas.md#questão-17)**
+
 ---
 
 ### Questão 18
 
 **Resposta:** C) BLEU
+
+**[Pergunta](readme_perguntas.md#questão-18)**
 
 ---
 
@@ -184,11 +220,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Rekognition
 
+**[Pergunta](readme_perguntas.md#questão-19)**
+
 ---
 
 ### Questão 20
 
 **Resposta:** C) F1-Score
+
+**[Pergunta](readme_perguntas.md#questão-20)**
 
 ---
 
@@ -196,11 +236,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon Comprehend
 
+**[Pergunta](readme_perguntas.md#questão-21)**
+
 ---
 
 ### Questão 22
 
 **Resposta:** D) ROUGE
+
+**[Pergunta](readme_perguntas.md#questão-22)**
 
 ---
 
@@ -208,11 +252,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** D) Amazon Lex
 
+**[Pergunta](readme_perguntas.md#questão-23)**
+
 ---
 
 ### Questão 24
 
 **Resposta:** A) Acurácia
+
+**[Pergunta](readme_perguntas.md#questão-24)**
 
 ---
 
@@ -220,11 +268,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Polly
 
+**[Pergunta](readme_perguntas.md#questão-25)**
+
 ---
 
 ### Questão 26
 
 **Resposta:** D) Recall
+
+**[Pergunta](readme_perguntas.md#questão-26)**
 
 ---
 
@@ -232,11 +284,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon Comprehend
 
+**[Pergunta](readme_perguntas.md#questão-27)**
+
 ---
 
 ### Questão 28
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-28)**
 
 ---
 
@@ -244,11 +300,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon Transcribe
 
+**[Pergunta](readme_perguntas.md#questão-29)**
+
 ---
 
 ### Questão 30
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-30)**
 
 ---
 
@@ -256,11 +316,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon Translate
 
+**[Pergunta](readme_perguntas.md#questão-31)**
+
 ---
 
 ### Questão 32
 
 **Resposta:** B) Erro Médio Absoluto (MAE)
+
+**[Pergunta](readme_perguntas.md#questão-32)**
 
 ---
 
@@ -268,11 +332,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon SageMaker
 
+**[Pergunta](readme_perguntas.md#questão-33)**
+
 ---
 
 ### Questão 34
 
 **Resposta:** C) BLEU
+
+**[Pergunta](readme_perguntas.md#questão-34)**
 
 ---
 
@@ -280,11 +348,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Rekognition
 
+**[Pergunta](readme_perguntas.md#questão-35)**
+
 ---
 
 ### Questão 36
 
 **Resposta:** C) F1-Score
+
+**[Pergunta](readme_perguntas.md#questão-36)**
 
 ---
 
@@ -292,11 +364,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon Comprehend
 
+**[Pergunta](readme_perguntas.md#questão-37)**
+
 ---
 
 ### Questão 38
 
 **Resposta:** D) ROUGE
+
+**[Pergunta](readme_perguntas.md#questão-38)**
 
 ---
 
@@ -304,11 +380,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** D) Amazon Lex
 
+**[Pergunta](readme_perguntas.md#questão-39)**
+
 ---
 
 ### Questão 40
 
 **Resposta:** A) Acurácia
+
+**[Pergunta](readme_perguntas.md#questão-40)**
 
 ---
 
@@ -316,11 +396,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Polly
 
+**[Pergunta](readme_perguntas.md#questão-41)**
+
 ---
 
 ### Questão 42
 
 **Resposta:** D) Recall
+
+**[Pergunta](readme_perguntas.md#questão-42)**
 
 ---
 
@@ -328,11 +412,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** B) Amazon Comprehend
 
+**[Pergunta](readme_perguntas.md#questão-43)**
+
 ---
 
 ### Questão 44
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-44)**
 
 ---
 
@@ -340,11 +428,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon Transcribe
 
+**[Pergunta](readme_perguntas.md#questão-45)**
+
 ---
 
 ### Questão 46
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-46)**
 
 ---
 
@@ -352,11 +444,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon Translate
 
+**[Pergunta](readme_perguntas.md#questão-47)**
+
 ---
 
 ### Questão 48
 
 **Resposta:** B) Erro Médio Absoluto (MAE)
+
+**[Pergunta](readme_perguntas.md#questão-48)**
 
 ---
 
@@ -364,11 +460,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Amazon SageMaker
 
+**[Pergunta](readme_perguntas.md#questão-49)**
+
 ---
 
 ### Questão 50
 
 **Resposta:** C) BLEU
+
+**[Pergunta](readme_perguntas.md#questão-50)**
 
 ---
 
@@ -376,11 +476,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Amazon Rekognition
 
+**[Pergunta](readme_perguntas.md#questão-51)**
+
 ---
 
 ### Questão 52
 
 **Resposta:** A) Amazon SageMaker
+
+**[Pergunta](readme_perguntas.md#questão-52)**
 
 ---
 
@@ -388,11 +492,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** C) Coeficiente de Determinação (R²)
 
+**[Pergunta](readme_perguntas.md#questão-53)**
+
 ---
 
 ### Questão 54
 
 **Resposta:** A) Amazon Personalize
+
+**[Pergunta](readme_perguntas.md#questão-54)**
 
 ---
 
@@ -400,11 +508,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** D) Todas as anteriores
 
+**[Pergunta](readme_perguntas.md#questão-55)**
+
 ---
 
 ### Questão 56
 
 **Resposta:** A) Amazon Fraud Detector
+
+**[Pergunta](readme_perguntas.md#questão-56)**
 
 ---
 
@@ -412,11 +524,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Índice de Silhueta
 
+**[Pergunta](readme_perguntas.md#questão-57)**
+
 ---
 
 ### Questão 58
 
 **Resposta:** A) Amazon SageMaker
+
+**[Pergunta](readme_perguntas.md#questão-58)**
 
 ---
 
@@ -424,11 +540,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** D) Todas as anteriores
 
+**[Pergunta](readme_perguntas.md#questão-59)**
+
 ---
 
 ### Questão 60
 
 **Resposta:** A) Amazon Comprehend
+
+**[Pergunta](readme_perguntas.md#questão-60)**
 
 ---
 
@@ -436,11 +556,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** D) Todas as anteriores
 
+**[Pergunta](readme_perguntas.md#questão-61)**
+
 ---
 
 ### Questão 62
 
 **Resposta:** A) Amazon Forecast
+
+**[Pergunta](readme_perguntas.md#questão-62)**
 
 ---
 
@@ -448,17 +572,23 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **Resposta:** A) Índice de Silhueta
 
+**[Pergunta](readme_perguntas.md#questão-63)**
+
 ---
 
 ### Questão 64
 
 **Resposta:** A) Amazon SageMaker
 
+**[Pergunta](readme_perguntas.md#questão-64)**
+
 ---
 
 ### Questão 65
 
 **Resposta:** D) Todas as anteriores
+
+**[Pergunta](readme_perguntas.md#questão-65)**
 
 ---
 
