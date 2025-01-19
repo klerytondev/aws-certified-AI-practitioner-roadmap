@@ -921,7 +921,7 @@ Este documento contém uma coleção de questões para ajudar na preparação pa
 
 ## Licença
 
-Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar, modificar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
 Elaborado por Kleryton de Souza

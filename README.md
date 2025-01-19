@@ -40,7 +40,7 @@ Bem-vindo ao repositório que servirá como seu guia completo para a certificaç
 - [📋 Resumo Rápido](#resumo-rápido)
 - [❓ Exemplos de Perguntas e Respostas](#exemplos-de-perguntas-e-respostas)
 - [Links Úteis](#links-úteis)
-- [Licença](#licença)
+- [MIT License](#licença)
 
 ## Sobre o Exame
 
@@ -192,7 +192,7 @@ Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perg
 
 ## Licença
 
-Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar, modificar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
 
