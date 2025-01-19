@@ -1,172 +1,235 @@
-## 🚧 WIP - (Work in Progress / Em construção)
+## Questões para o Exame de Certificação AWS Certified AI Practitioner (AIF-C01)
 
-# Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner
+Este documento contém uma coleção de questões para ajudar na preparação para o exame de certificação AWS Certified AI Practitioner (AIF-C01).
 
-Bem-vindo ao repositório que servirá como seu guia completo para a certificação AWS Certified AI Practitioner. Aqui, você encontrará informações essenciais sobre o exame, recursos de estudo recomendados e uma estrutura de aprendizado para auxiliá-lo em sua jornada rumo à certificação.
+### Índice
 
-## 📌 Índice
+1. [Questão 1](#questão-1)
+2. [Questão 2](#questão-2)
+3. [Questão 3](#questão-3)
+4. [Questão 4](#questão-4)
+5. [Questão 5](#questão-5)
+6. [Questão 6](#questão-6)
+7. [Questão 7](#questão-7)
+8. [Questão 8](#questão-8)
+9. [Questão 9](#questão-9)
+10. [Questão 10](#questão-10)
+11. [Questão 11](#questão-11)
+12. [Questão 12](#questão-12)
+13. [Questão 13](#questão-13)
+14. [Questão 14](#questão-14)
+15. [Questão 15](#questão-15)
+16. [Questão 16](#questão-16)
 
-- [Sobre o Exame](#sobre-o-exame)
-- [Estrutura do Exame](#estrutura-do-exame)
-- [Domínios do Exame](#domínios-do-exame)
-- [Recursos de Estudo](#recursos-de-estudo)
-- [Resumo Rápido por Tópico](#resumo-rápido-por-tópico)
-  - [Fundamentos de Machine Learning](#fundamentos-de-machine-learning)
-  - [Métricas de Avaliação de Modelos](#métricas-de-avaliação-de-modelos)
-  - [Serviços da AWS para IA](#serviços-da-aws-para-ia)
-  - [IA Generativa](#ia-generativa)
-  - [Implementação Responsável de IA](#implementação-responsável-de-ia)
-  - [Casos de Uso de Negócios](#casos-de-uso-de-negócios)
-  - [Considerações de Custo](#considerações-de-custo)
-  - [Segurança e Governança](#segurança-e-governança)
-- [Plano de Estudo Sugerido](#plano-de-estudo-sugerido)
-- [Dicas para o Exame](#dicas-para-o-exame)
-- [📋 Resumo Rápido](#resumo-rápido)
-- [❓ Exemplos de Perguntas e Respostas](#exemplos-de-perguntas-e-respostas)
-- [Links Úteis](#links-úteis)
-- [Licença](#licença)
+---
 
-## Sobre o Exame
+### Questão 1
 
-A certificação **AWS Certified AI Practitioner** valida o conhecimento fundamental em inteligência artificial (IA), machine learning (ML) e conceitos de IA generativa na AWS. É ideal para profissionais que utilizam soluções de IA/ML na AWS, mas que não necessariamente as desenvolvem. ([aws.amazon.com](https://aws.amazon.com/pt/certification/certified-ai-practitioner/?utm_source=chatgpt.com))
+**Pergunta:**  
+Qual serviço da AWS é usado para criar e treinar modelos de machine learning?
 
-**Detalhes do exame:**
+**Opções:**
+- A) Amazon Rekognition
+- B) Amazon SageMaker
+- C) Amazon Polly
+- D) Amazon Lex
 
-- **Categoria:** Básico
-- **Duração:** 90 minutos
-- **Formato:** 65 perguntas
-- **Custo:** 100 USD
-- **Idiomas Disponíveis:** Inglês, Japonês, Coreano, Português (Brasil) e Chinês Simplificado
-- **Funções de Candidatos:** Analista de negócios, suporte de TI, profissional de marketing, gerente de produto ou projeto, gerente de linha de negócios ou de TI, profissional de vendas
+---
 
-## Estrutura do Exame
+### Questão 2
 
-O exame é composto por 65 perguntas de múltipla escolha que avaliam seu entendimento sobre:
+**Pergunta:**  
+Qual métrica é usada para avaliar a qualidade de uma tradução automática?
 
-- Conceitos básicos de IA e ML
-- Serviços de IA/ML oferecidos pela AWS
-- Casos de uso e melhores práticas
-- Noções de IA generativa
+**Opções:**
+- A) Acurácia
+- B) F1-Score
+- C) BLEU
+- D) Recall
 
-## Domínios do Exame
+---
 
-Os principais domínios abordados no exame incluem:
+### Questão 3
 
-1. **Fundamentos de IA e ML (30%)**
-   - Conceitos básicos e terminologias
-   - Diferença entre IA, ML e Deep Learning
+**Pergunta:**  
+Qual serviço da AWS é usado para análise de imagens e vídeos?
 
-2. **Serviços de IA/ML da AWS (40%)**
-   - Amazon SageMaker
-   - Amazon Rekognition
-   - Amazon Polly
-   - Amazon Lex
-   - Outros serviços relevantes
+**Opções:**
+- A) Amazon Comprehend
+- B) Amazon Polly
+- C) Amazon Rekognition
+- D) Amazon Lex
 
-3. **Implementação e Operações (20%)**
-   - Integração de serviços de IA/ML em aplicações
-   - Monitoramento e otimização de modelos
+---
 
-4. **IA Generativa (10%)**
-   - Conceitos e casos de uso
-   - Ferramentas e serviços relacionados
+### Questão 4
 
-## Recursos de Estudo
+**Pergunta:**  
+Qual métrica combina precisão e recall em uma média harmônica?
 
-Para uma preparação eficaz, recomenda-se os seguintes recursos:
+**Opções:**
+- A) Acurácia
+- B) BLEU
+- C) F1-Score
+- D) ROUGE
 
-- **Cursos Gratuitos:**
-  - [AWS Cloud Practitioner Essentials (Português)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials-portuguese)
-  - [Fundamentos de Machine Learning na AWS](https://explore.skillbuilder.aws/learn/course/external/view/elearning/133/machine-learning-fundamentals-portuguese)
+---
 
-- **Cursos Pagos:**
-  - [AWS Certified AI Practitioner Exam Training](https://www.udemy.com/course/aws-certified-ai-practitioner/)
-  - [Práticas de IA na AWS](https://www.coursera.org/learn/aws-ai)
+### Questão 5
 
-- **Documentação Oficial:**
-  - [Guia do Exame AWS Certified AI Practitioner](https://d1.awsstatic.com/training-and-certification/docs-ai/AWS-Certified-AI-Practitioner_Exam-Guide.pdf)
+**Pergunta:**  
+Qual serviço da AWS é usado para processamento de linguagem natural?
 
-## Resumo Rápido por Tópico
+**Opções:**
+- A) Amazon SageMaker
+- B) Amazon Comprehend
+- C) Amazon Polly
+- D) Amazon Lex
 
-### Fundamentos de Machine Learning
+---
 
-- **Acurácia**: Mede a proporção de previsões corretas.
-- **Mitigação de Sobreajuste**: Aumentar dados de treinamento reduz sobreajuste.
-- **Viés**: Viés de amostragem ocorre com dados não representativos.
-- **Dados Rotulados vs Não Rotulados**: Dados rotulados são usados em aprendizado supervisionado, enquanto os não rotulados são aplicados no aprendizado não supervisionado.
+### Questão 6
 
-### Métricas de Avaliação de Modelos
+**Pergunta:**  
+Qual métrica é usada para avaliar a qualidade de resumos automáticos?
 
-- **F1-Score**: Combina precisão e recall.
-- **BLEU e ROUGE**: Avaliam qualidade de traduções e resumos.
-- **Acurácia, Precisão e Recall**: Avaliam modelos de classificação.
+**Opções:**
+- A) Acurácia
+- B) BLEU
+- C) F1-Score
+- D) ROUGE
 
-### Serviços da AWS para IA
+---
 
-- **Amazon SageMaker**: Desenvolvimento de modelos ML.
-- **Amazon Rekognition**: Análise de imagens e vídeos.
-- **Amazon Comprehend**: Processamento de linguagem natural.
+### Questão 7
 
-### IA Generativa
+**Pergunta:**  
+Qual serviço da AWS é usado para criar chatbots?
 
-- **Amazon Bedrock**: Modelos de fundação para IA generativa.
-- **Engenharia de Prompt**: Criação de prompts eficazes para resultados desejados.
+**Opções:**
+- A) Amazon SageMaker
+- B) Amazon Comprehend
+- C) Amazon Polly
+- D) Amazon Lex
 
-### Implementação Responsável de IA
+---
 
-- Minimização de viés e transparência no uso de modelos.
+### Questão 8
 
-### Casos de Uso de Negócios
+**Pergunta:**  
+Qual métrica mede a proporção de previsões corretas?
 
-- **Chatbots**: Amazon Lex para atendimento ao cliente.
-- **Detecção de Fraudes**: Amazon Fraud Detector.
+**Opções:**
+- A) Acurácia
+- B) BLEU
+- C) F1-Score
+- D) Recall
 
-### Considerações de Custo
+---
 
-- **AWS Trainium**: Otimização de custos no treinamento de modelos grandes.
+### Questão 9
 
-### Segurança e Governança
+**Pergunta:**  
+Qual serviço da AWS é usado para síntese de texto em fala?
 
-- **IAM**: Gerenciamento de identidades.
-- **KMS**: Proteção de dados com criptografia.
+**Opções:**
+- A) Amazon SageMaker
+- B) Amazon Comprehend
+- C) Amazon Polly
+- D) Amazon Lex
 
-## Plano de Estudo Sugerido
+---
 
-**Semanas 1-2: Fundamentos de IA e ML**
+### Questão 10
 
-- Estudar conceitos básicos de IA e ML.
-- Compreender diferenças entre IA, ML e Deep Learning.
+**Pergunta:**  
+Qual métrica mede a proporção de verdadeiros positivos corretamente identificados entre todos os positivos reais?
 
-**Semanas 3-4: Serviços de IA/ML da AWS**
+**Opções:**
+- A) Acurácia
+- B) Precisão
+- C) F1-Score
+- D) Recall
 
-- Explorar serviços como Amazon SageMaker, Rekognition, Polly e Lex.
-- Realizar tutoriais práticos.
+---
 
-**Semanas 5-6: Implementação e Operações**
+### Questão 11
 
-- Aprender sobre integração e monitoramento de serviços.
+**Pergunta:**  
+Qual serviço da AWS é usado para análise de sentimentos em textos?
 
-**Semana 7: IA Generativa**
+**Opções:**
+- A) Amazon SageMaker
+- B) Amazon Comprehend
+- C) Amazon Polly
+- D) Amazon Lex
 
-- Estudar conceitos e casos de uso.
+---
 
-**Semana 8: Revisão e Simulados**
+### Questão 12
 
-- Revisar tópicos e realizar simulados.
+**Pergunta:**  
+Qual métrica é usada para avaliar a qualidade de um modelo de classificação binária?
 
-## Dicas para o Exame
+**Opções:**
+- A) Acurácia
+- B) Precisão
+- C) F1-Score
+- D) Todas as anteriores
 
-- Utilize laboratórios práticos.
-- Realize simulados para familiarização.
-- Gerencie bem seu tempo durante o exame.
+---
 
-## 📋 Resumo Rápido
+### Questão 13
 
-Confira um resumo rápido de conceitos e tópicos essenciais para o exame no arquivo [Resumo Rápido](resumo-rapido.md).
+**Pergunta:**  
+Qual serviço da AWS é usado para reconhecimento de fala?
 
-## ❓ Exemplos de Perguntas e Respostas
+**Opções:**
+- A) Amazon Transcribe
+- B) Amazon Comprehend
+- C) Amazon Polly
+- D) Amazon Lex
 
-Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perguntas e Respostas](exemplos-perguntas-respostas.md).
+---
+
+### Questão 14
+
+**Pergunta:**  
+Qual métrica é usada para avaliar a qualidade de um modelo de classificação multi-classe?
+
+**Opções:**
+- A) Acurácia
+- B) Precisão
+- C) F1-Score
+- D) Todas as anteriores
+
+---
+
+### Questão 15
+
+**Pergunta:**  
+Qual serviço da AWS é usado para tradução automática?
+
+**Opções:**
+- A) Amazon Translate
+- B) Amazon Comprehend
+- C) Amazon Polly
+- D) Amazon Lex
+
+---
+
+### Questão 16
+
+**Pergunta:**  
+Qual métrica é usada para avaliar a qualidade de um modelo de regressão?
+
+**Opções:**
+- A) Acurácia
+- B) Erro Médio Absoluto (MAE)
+- C) F1-Score
+- D) BLEU
+
+---
 
 ## Links Úteis
 

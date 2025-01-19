@@ -5,13 +5,13 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
 ---
 ## Índice
 1. [Conteúdo Completo](#conteúdo-completo)
-    1.1 [Fundamentos de Machine Learning](#fundamentos-de-machine-learning)
-    1.2 [Métricas de Avaliação de Modelos](#métricas-de-avaliação-de-modelos)
-    1.3 [Serviços da AWS para IA](#serviços-da-aws-para-ia)
-    1.4 [IA Generativa](#ia-generativa)
-    1.5 [Implementação Responsável de IA](#implementação-responsável-de-ia)
-    1.6 [Casos de Uso de Negócios](#casos-de-uso-de-negócios)
-    1.7 [Considerações de Custo](#considerações-de-custo)
+    1. [Fundamentos de Machine Learning](#fundamentos-de-machine-learning)
+    2. [Métricas de Avaliação de Modelos](#métricas-de-avaliação-de-modelos)
+    3. [Serviços da AWS para IA](#serviços-da-aws-para-ia)
+    4. [IA Generativa](#ia-generativa)
+    5. [Implementação Responsável de IA](#implementação-responsável-de-ia)
+    6. [Casos de Uso de Negócios](#casos-de-uso-de-negócios)
+    7. [Considerações de Custo](#considerações-de-custo)
 
 ---
 
