@@ -178,11 +178,11 @@ Para uma preparação eficaz, recomenda-se os seguintes recursos:
 
 ## Resumo Rápido
 
-Confira um resumo rápido de conceitos e tópicos essenciais para o exame no arquivo [Resumo Rápido](readme-resumo-rapido).
+Confira um resumo rápido de conceitos e tópicos essenciais para o exame no arquivo [Resumo Rápido](contents/readme_resumo_rapido).
 
 ## Exemplos de Perguntas e Respostas
 
-Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perguntas e Respostas](readme-pergunta).
+Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perguntas e Respostas](contents/readme_perguntas).
 
 ## Links Úteis
 
