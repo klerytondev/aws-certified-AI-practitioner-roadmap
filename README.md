@@ -8,12 +8,12 @@
 
 <div align="center">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/aws-certified-AI-practitioner-roadmap">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aws-certified-AI-practitioner-roadmap">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/klerytondev/aws-certified-AI-practitioner-roadmap.svg">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/klerytondev/aws-certified-AI-practitioner-roadmap.svg">
   <a href="https://github.com/klerytondev/aws-certified-AI-practitioner-roadmap/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/aws-certified-AI-practitioner-roadmap">
+  <img alt="Repository issues" src="https://img.shields.io/github/issues/klerytondev/aws-certified-AI-practitioner-roadmap.svg">
   </a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/aws-certified-AI-practitioner-roadmap">
+  <img alt="GitHub" src="https://img.shields.io/github/license/klerytondev/aws-certified-AI-practitioner-roadmap.svg">
 </div>
 
 <br />
