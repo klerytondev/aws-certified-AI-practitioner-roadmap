@@ -196,4 +196,4 @@ Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LIC
 
 ---
 
-Feito com ♥ por [Seu Nome]
+Elaborado por Kleryton de Souza

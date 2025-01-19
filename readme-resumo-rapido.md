@@ -88,3 +88,11 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
 ---
 
 Esses são os principais pontos abordados no resumo da certificação AIF-C01. Para mais detalhes, revise os materiais de estudo e documentação oficial da AWS.
+
+## Licença
+
+Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Elaborado por Kleryton de Souza
