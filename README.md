@@ -1,5 +1,3 @@
-## 🚧 WIP - (Work in Progress / Em construção)
-
 <h1 align="center">
     <br>
     Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner |AIF-C01
