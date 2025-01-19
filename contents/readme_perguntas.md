@@ -1046,7 +1046,7 @@ Qual métrica é usada para avaliar a qualidade de um modelo de classificação 
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar, modificar e distribuir este Guia, desde que mantenha os créditos apropriados..
+Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
 Elaborado por Kleryton de Souza
