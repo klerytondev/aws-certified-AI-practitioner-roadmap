@@ -176,13 +176,13 @@ Para uma preparação eficaz, recomenda-se os seguintes recursos:
 - Realize simulados para familiarização.
 - Gerencie bem seu tempo durante o exame.
 
-## 📋 Resumo Rápido
+## Resumo Rápido
 
-Confira um resumo rápido de conceitos e tópicos essenciais para o exame no arquivo [Resumo Rápido](resumo-rapido.md).
+Confira um resumo rápido de conceitos e tópicos essenciais para o exame no arquivo [Resumo Rápido](readme-resumo-rapido).
 
-## ❓ Exemplos de Perguntas e Respostas
+## Exemplos de Perguntas e Respostas
 
-Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perguntas e Respostas](exemplos-perguntas-respostas.md).
+Explore exemplos práticos de perguntas e respostas no arquivo [Exemplos de Perguntas e Respostas](readme-pergunta).
 
 ## Links Úteis
 
