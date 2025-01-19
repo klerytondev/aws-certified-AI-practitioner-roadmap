@@ -1,22 +1,6 @@
 ## 🚧 WIP - (Work in Progress / Em construção)
 
-<h1 align="center">
-    <br>
-    Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner
-</h1>
-
-
-<div align="center">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/aws-certified-AI-practitioner-roadmap">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aws-certified-AI-practitioner-roadmap">
-  <a href="https://github.com/klerytondev/aws-certified-AI-practitioner-roadmap/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/aws-certified-AI-practitioner-roadmap">
-  </a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/aws-certified-AI-practitioner-roadmap">
-</div>
-
-<br />
+# Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner
 
 Bem-vindo ao repositório que servirá como seu guia completo para a certificação AWS Certified AI Practitioner. Aqui, você encontrará informações essenciais sobre o exame, recursos de estudo recomendados e uma estrutura de aprendizado para auxiliá-lo em sua jornada rumo à certificação.
 
