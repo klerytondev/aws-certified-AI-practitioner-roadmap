@@ -3,6 +3,19 @@
 Este documento fornece um resumo detalhado dos principais conceitos abordados na certificação AWS Certified AI Practitioner (AIF-C01).
 
 ---
+## Índice
+1. [Conteúdo Completo](#conteúdo-completo)
+    1. [Fundamentos de Machine Learning](#fundamentos-de-machine-learning)
+    2. [Métricas de Avaliação de Modelos](#métricas-de-avaliação-de-modelos)
+    3. [Serviços da AWS para IA](#serviços-da-aws-para-ia)
+    4. [IA Generativa](#ia-generativa)
+    5. [Implementação Responsável de IA](#implementação-responsável-de-ia)
+    6. [Casos de Uso de Negócios](#casos-de-uso-de-negócios)
+    7. [Considerações de Custo](#considerações-de-custo)
+
+---
+
+## Conteúdo Completo
 
 ### Fundamentos de Machine Learning:
 
@@ -37,9 +50,17 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
 
 ### Serviços da AWS para IA:
 
-- **Compreensão de Sentimentos**: Amazon Comprehend é um serviço de PNL que inclui recursos para análise de sentimentos, detecção de idioma, reconhecimento de entidade e muito mais.
-- **SageMaker Clarify**: Ajuda a identificar e mitigar o viés em conjuntos de dados e modelos, fornecendo ferramentas para avaliar o viés nas etapas de preparação e treinamento de dados.
-- **Bedrock**: Fornece acesso a modelos de fundação, incluindo grandes modelos de linguagem que suportam IA generativa e tarefas complexas de linguagem, incluindo análise de sentimentos.
+- **Amazon SageMaker**: Plataforma abrangente para desenvolvimento de modelos de machine learning, que inclui ferramentas para preparação de dados, treinamento, deploy e monitoramento de modelos. Recursos como AutoML, pipelines e endpoints gerenciados tornam o SageMaker essencial para projetos de ML em produção.
+- **Amazon Comprehend**: Serviço de processamento de linguagem natural (PNL) que analisa textos para identificar sentimentos, entidades e tópicos. É útil em aplicações como análise de feedbacks de clientes ou automação de tarefas baseadas em textos.
+- **Amazon Rekognition**: Serviço de análise de imagens e vídeos que identifica objetos, pessoas, atividades e texto. Recursos incluem detecção de rostos e moderação de conteúdo visual, frequentemente usados em segurança, mídia e entretenimento.
+- **Amazon Bedrock**: Permite acesso a modelos de fundação, incluindo grandes modelos de linguagem que suportam IA generativa e tarefas complexas de linguagem, como análise de sentimentos.
+- **Amazon Polly**: Serviço de síntese de texto em fala (TTS), capaz de converter texto em áudio realista. Com suporte a múltiplos idiomas e vozes personalizáveis, é ideal para aplicações como assistentes virtuais e narração automatizada.
+- **Amazon Translate**: Serviço de tradução automática em tempo real, suportando múltiplos idiomas. Ele é útil para e-commerces globais, legendas multilíngues e comunicações internacionais.
+- **Amazon Fraud Detector**: Serviço da AWS que utiliza machine learning para identificar automaticamente atividades potencialmente fraudulentas em transações online, como pagamentos e criação de contas.
+- **Amazon Lookout for Vision**: Aplica aprendizado de máquina para identificar defeitos visuais em imagens, ajudando a detectar anomalias em produtos de manufatura e melhorar o controle de qualidade.
+- **Amazon SageMaker Ground Truth**: Usa feedback humano para criar conjuntos de dados rotulados. Ao incorporar rótulos verificados por humanos e supervisão humana, o SageMaker Ground Truth ajuda a alinhar mais estreitamente o processo de tomada de decisão da IA aos contextos do mundo real.
+- **AWS DeepRacer**: Projetado para ensinar os usuários a treinar modelos de aprendizado por reforço, utilizados para guiar um carro autônomo em pistas virtuais e, eventualmente, em carros físicos.
+- **Amazon Lex**: Pode ser usado para criar interfaces de voz integradas a dispositivos IoT e aplicativos móveis, mas sua funcionalidade principal está na construção de chatbots baseados em IA para interações com clientes.
 
 ### IA Generativa:
 
@@ -66,3 +87,4 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
 
 ---
 
+Esses são os principais pontos abordados no resumo da certificação AIF-C01. Para mais detalhes, revise os materiais de estudo e documentação oficial da AWS.
