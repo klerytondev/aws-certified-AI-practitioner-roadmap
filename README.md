@@ -59,32 +59,48 @@ O exame é composto por 65 perguntas de múltipla escolha que avaliam seu entend
 
 Os principais domínios abordados no exame incluem:
 
-1. **Fundamentos de IA e ML (30%)**
+1. **Fundamentos de IA e ML (20%)**
    - Conceitos básicos e terminologias
    - Diferença entre IA, ML e Deep Learning
+   - Ciclo de vida de um projeto de ML
+   - Tipos de aprendizado (supervisionado, não supervisionado, por reforço)
+   - Principais algoritmos de ML
 
-2. **Serviços de IA/ML da AWS (40%)**
+2. **Fundamentos de IA Generativa (24%)**
+   - Conceitos e casos de uso
+   - Ferramentas e serviços relacionados
+   - Engenharia de prompt
+   - Considerações éticas e de responsabilidade
+
+3. **Aplicações de Modelos de Base (28%)**
    - Amazon SageMaker
    - Amazon Rekognition
    - Amazon Polly
    - Amazon Lex
+   - Amazon Comprehend
+   - Amazon Translate
+   - Amazon Transcribe
    - Outros serviços relevantes
 
-3. **Implementação e Operações (20%)**
-   - Integração de serviços de IA/ML em aplicações
+4. **Diretrizes de IA Responsável (14%)**
+   - Minimização de viés
+   - Transparência e explicabilidade
+   - Implementação ética de IA
    - Monitoramento e otimização de modelos
 
-4. **IA Generativa (10%)**
-   - Conceitos e casos de uso
-   - Ferramentas e serviços relacionados
+5. **Segurança, Conformidade e Governança para Soluções de IA (14%)**
+   - Práticas recomendadas de segurança e conformidade
+   - Gerenciamento de dados sensíveis
+   - Governança de IA
+   - Gerenciamento de custos e otimização
 
 ## Recursos de Estudo
 
 Para uma preparação eficaz, recomenda-se os seguintes recursos:
 
 - **Cursos Gratuitos:**
-  - [AWS Cloud Practitioner Essentials (Português)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials-portuguese)
-  - [Fundamentos de Machine Learning na AWS](https://explore.skillbuilder.aws/learn/course/external/view/elearning/133/machine-learning-fundamentals-portuguese)
+  - [AWS Cloud Practitioner Essentials (Inglês)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-cloud-practitioner-essentials-portuguese)
+  - [Fundamentos de Machine Learning na AWS (Inglês)](https://explore.skillbuilder.aws/learn/course/external/view/elearning/133/machine-learning-fundamentals-portuguese)
 
 - **Cursos Pagos:**
   - [AWS Certified AI Practitioner Exam Training (Português)](https://www.udemy.com/course/certificacao-amazon-aws-ai-practitioner/)
