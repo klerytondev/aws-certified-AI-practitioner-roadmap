@@ -726,7 +726,7 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
+Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
 

@@ -89,9 +89,15 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
 
 Esses são os principais pontos abordados no resumo da certificação AIF-C01. Para mais detalhes, revise os materiais de estudo e documentação oficial da AWS.
 
+## Links Úteis
+
+- [Página Oficial da Certificação AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
+- [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
+- [Documentação dos Serviços de IA/ML da AWS](https://aws.amazon.com/pt/machine-learning/)
+
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
+Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
 

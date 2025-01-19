@@ -1044,9 +1044,15 @@ Qual métrica é usada para avaliar a qualidade de um modelo de classificação 
 
 **[Resposta](readme_respostas.md#questão-65)**
 
+## Links Úteis
+
+- [Página Oficial da Certificação AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
+- [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
+- [Documentação dos Serviços de IA/ML da AWS](https://aws.amazon.com/pt/machine-learning/)
+
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
+Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
 
 ---
 Elaborado por Kleryton de Souza
