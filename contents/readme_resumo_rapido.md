@@ -95,6 +95,8 @@ Esses são os principais pontos abordados no resumo da certificação AIF-C01. P
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 - [Documentação dos Serviços de IA/ML da AWS](https://aws.amazon.com/pt/machine-learning/)
 
+---
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à vontade para usar e distribuir este Guia, desde que mantenha os créditos apropriados..
@@ -102,7 +104,7 @@ Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à v
 ---
 
 ### Autor
----
+
 <a href="https://github.com/klerytondev/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/klerytondev" width="100px;" alt=""/>
  <br />

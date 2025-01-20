@@ -918,11 +918,15 @@ Como garantir que um modelo de IA seja eficiente em termos de custo?
 
 **[Resposta](readme_respostas.md#questão-65)**
 
+---
+
 ## Links Úteis
 
 - [Página Oficial da Certificação AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 - [Documentação dos Serviços de IA/ML da AWS](https://aws.amazon.com/pt/machine-learning/)
+
+---
 
 ## Licença
 
@@ -931,7 +935,7 @@ Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à v
 ---
 
 ### Autor
----
+
 <a href="https://github.com/klerytondev/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/klerytondev" width="100px;" alt=""/>
  <br />

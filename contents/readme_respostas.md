@@ -720,11 +720,15 @@ Este documento contém as respostas para as questões do exame de certificação
 
 **[Pergunta](readme_perguntas.md#questão-65)**
 
+---
+
 ## Links Úteis
 
 - [Página Oficial da Certificação AWS Certified AI Practitioner](https://aws.amazon.com/pt/certification/certified-ai-practitioner/)
 - [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
 - [Documentação dos Serviços de IA/ML da AWS](https://aws.amazon.com/pt/machine-learning/)
+
+---
 
 ## Licença
 
@@ -733,7 +737,7 @@ Este projeto está licenciado sob a [MIT License](../license.txt). Sinta-se à v
 ---
 
 ### Autor
----
+
 <a href="https://github.com/klerytondev/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/klerytondev" width="100px;" alt=""/>
  <br />

@@ -158,7 +158,7 @@ Este projeto está licenciado sob a [MIT License](license.txt). Sinta-se à vont
 ---
 
 ### Autor
----
+
 <a href="https://github.com/klerytondev/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/klerytondev" width="100px;" alt=""/>
  <br />
