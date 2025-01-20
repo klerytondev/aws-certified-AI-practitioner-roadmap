@@ -74,9 +74,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 1
 
-**Resposta:** B) Amazon SageMaker
+**Resposta:** B) Aumentar as épocas
 
-**Resumo:** O Amazon SageMaker é um serviço da AWS que permite construir, treinar e implantar modelos de machine learning de forma rápida e fácil.
+**Resumo:** Aumentar as épocas, ou seja, o número de vezes que o modelo percorre todo o conjunto de dados de treinamento, permite que o modelo aprenda mais com os dados, potencialmente aumentando a precisão. No entanto, um número excessivo de épocas pode levar ao overfitting, onde o modelo se torna muito especializado nos dados de treinamento e tem dificuldades em generalizar para novos dados. Monitorar o overfitting é crucial.
 
 **[Pergunta](readme_perguntas.md#questão-1)**
 
@@ -84,9 +84,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 2
 
-**Resposta:** C) BLEU
+**Resposta:** B) Duração média da chamada
 
-**Resumo:** BLEU (Bilingual Evaluation Understudy) é uma métrica usada para avaliar a qualidade de texto traduzido automaticamente comparando-o com uma ou mais traduções de referência.
+**Resumo:** A duração média da chamada é a métrica mais relevante, pois uma redução nesse tempo indica que o chatbot está respondendo às perguntas dos clientes de forma eficaz, diminuindo a necessidade de intervenção dos funcionários do call center.
 
 **[Pergunta](readme_perguntas.md#questão-2)**
 
@@ -94,9 +94,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 3
 
-**Resposta:** C) Amazon Rekognition
+**Resposta:** D) SageMaker Clarify
 
-**Resumo:** O Amazon Rekognition é um serviço da AWS que facilita a análise de imagens e vídeos para identificar objetos, pessoas, texto, cenas e atividades.
+**Resumo:** O SageMaker Clarify concentra-se na detecção e mitigação de vieses em conjuntos de dados e modelos de machine learning. Ele fornece ferramentas para avaliar vieses e explicar as previsões do modelo.
 
 **[Pergunta](readme_perguntas.md#questão-3)**
 
@@ -104,9 +104,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 4
 
-**Resposta:** C) F1-Score
+**Resposta:** C) Aumentar o volume de dados de treinamento
 
-**Resumo:** O F1-Score é uma métrica de avaliação que considera tanto a precisão quanto o recall, sendo especialmente útil para conjuntos de dados desbalanceados.
+**Resumo:** Aumentar o volume de dados de treinamento é a solução mais eficaz para combater o overfitting. Mais dados permitem que o modelo aprenda padrões mais generalizáveis, reduzindo a especialização excessiva nos dados de treinamento.
 
 **[Pergunta](readme_perguntas.md#questão-4)**
 
@@ -114,9 +114,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 5
 
-**Resposta:** B) Amazon Comprehend
+**Resposta:** B e E) Amazon Comprehend e Amazon Bedrock
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para encontrar insights e relacionamentos em textos.
+**Resumo:** Tanto o Amazon Comprehend quanto o Amazon Bedrock são adequados para análise de sentimento. O Comprehend é um serviço de PNL com recursos específicos para essa tarefa, enquanto o Bedrock, com seus modelos de linguagem de grande escala, também pode ser usado para análise de sentimento. O Comprehend pode ser uma solução mais direta e econômica para essa necessidade específica.
 
 **[Pergunta](readme_perguntas.md#questão-5)**
 
@@ -124,9 +124,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 6
 
-**Resposta:** D) ROUGE
+**Resposta:** D) Utilização de uma base de conhecimento
 
-**Resumo:** ROUGE (Recall-Oriented Understudy for Gisting Evaluation) é uma métrica usada para avaliar a qualidade de resumos automáticos comparando-os com resumos de referência.
+**Resumo:** A utilização de uma base de conhecimento é a solução mais eficiente e econômica, pois permite que o modelo acesse as informações relevantes sem a necessidade de enviar grandes quantidades de texto a cada solicitação. Adicionar todos os PDFs como contexto seria caro e ineficiente, enquanto o ajuste fino em todos os documentos seria demorado e caro.
 
 **[Pergunta](readme_perguntas.md#questão-6)**
 
@@ -134,9 +134,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 7
 
-**Resposta:** D) Amazon Lex
+**Resposta:** C) Engenharia de prompts
 
-**Resumo:** O Amazon Lex é um serviço da AWS para construir interfaces de conversa em qualquer aplicação usando voz e texto.
+**Resumo:** A engenharia de prompts, ou seja, a criação de prompts (instruções) eficazes, é a chave para orientar o modelo a gerar conteúdo alinhado à voz da marca. Instruções detalhadas e contexto relevante no prompt permitem um controle preciso sobre o estilo e o conteúdo gerado.
 
 **[Pergunta](readme_perguntas.md#questão-7)**
 
@@ -144,9 +144,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 8
 
-**Resposta:** A) Acurácia
+**Resposta:** A) Detectar desequilíbrios nos dados
 
-**Resumo:** Acurácia é uma métrica de avaliação que mede a proporção de previsões corretas em relação ao total de previsões feitas.
+**Resumo:** Detectar desequilíbrios nos dados é crucial para identificar e corrigir vieses potenciais. Avaliar e documentar o comportamento do modelo permite monitorar e mitigar vieses que possam surgir ao longo do tempo. Executar o modelo com frequência, usar ROUGE ou garantir o tempo de inferência não abordam diretamente a questão do viés.
 
 **[Pergunta](readme_perguntas.md#questão-8)**
 
@@ -154,9 +154,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 9
 
-**Resposta:** C) Amazon Polly
+**Resposta:** B) Bedrock não suporta a implantação direta de modelos personalizados
 
-**Resumo:** O Amazon Polly é um serviço que transforma texto em fala realista, permitindo criar aplicações que falam e construir categorias inteiramente novas de produtos habilitados para fala.
+**Resumo:** O Bedrock não suporta a implantação direta de modelos personalizados. A solução é implantar o modelo em um endpoint do SageMaker e, em seguida, usar esse endpoint em conjunto com os fluxos de trabalho do Bedrock.
 
 **[Pergunta](readme_perguntas.md#questão-9)**
 
@@ -164,9 +164,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 10
 
-**Resposta:** D) Recall
+**Resposta:** C) Copiar conteúdo gerado por IA sem atribuição adequada
 
-**Resumo:** Recall é uma métrica que avalia a capacidade de um modelo de encontrar todos os positivos reais em um conjunto de dados.
+**Resumo:** Copiar conteúdo gerado por IA sem atribuição adequada constitui plágio, violando os princípios de autoria e originalidade.
 
 **[Pergunta](readme_perguntas.md#questão-10)**
 
@@ -174,9 +174,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 11
 
-**Resposta:** B) Amazon Comprehend
+**Resposta:** D) Série TRN com chips AWS Trainium
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para encontrar insights e relacionamentos em textos.
+**Resumo:** A série TRN, com seus chips AWS Trainium, foi projetada especificamente para treinamento de LLMs com alta eficiência energética, minimizando o impacto ambiental.
 
 **[Pergunta](readme_perguntas.md#questão-11)**
 
@@ -184,9 +184,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 12
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** C) Guardrails do Bedrock
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que todas as respostas listadas são válidas para a pergunta.
+**Resumo:** Os guardrails do Bedrock permitem definir restrições sobre a saída do modelo, garantindo a geração de conteúdo apropriado para crianças ao filtrar linguagem e tópicos inadequados.
 
 **[Pergunta](readme_perguntas.md#questão-12)**
 
@@ -194,9 +194,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 13
 
-**Resposta:** A) Amazon Transcribe
+**Resposta:** D) SageMaker Canvas
 
-**Resumo:** O Amazon Transcribe é um serviço de transcrição automática de fala para texto, permitindo a conversão de arquivos de áudio em texto.
+**Resumo:** O SageMaker Canvas é uma solução sem código que permite que analistas de negócios criem modelos de machine learning sem escrever código. É ideal para prever a demanda em um ambiente amigável.
 
 **[Pergunta](readme_perguntas.md#questão-13)**
 
@@ -204,9 +204,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 14
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** B) Viés de amostragem
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que todas as respostas listadas são válidas para a pergunta.
+**Resumo:** Viés de amostragem ocorre quando os dados de treinamento não representam a população de forma justa, levando a resultados tendenciosos. Se o conjunto de dados usado para treinar o modelo contivesse uma representação excessiva de um determinado grupo étnico em relação a incidentes de roubo, isso resultaria na sinalização desproporcional observada.
 
 **[Pergunta](readme_perguntas.md#questão-14)**
 
@@ -214,9 +214,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 15
 
-**Resposta:** A) Amazon Translate
+**Resposta:** B) Aprendizagem por reforço
 
-**Resumo:** O Amazon Translate é um serviço de tradução automática de texto que oferece traduções rápidas e de alta qualidade entre diferentes idiomas.
+**Resumo:** A aprendizagem por reforço é ideal para chatbots que precisam se autoaprimorar. Nessa abordagem, o chatbot aprende por meio de tentativa e erro, recebendo recompensas por respostas positivas e penalidades por respostas negativas.
 
 **[Pergunta](readme_perguntas.md#questão-15)**
 
@@ -224,9 +224,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 16
 
-**Resposta:** B) Erro Médio Absoluto (MAE)
+**Resposta:** A) Matriz de confusão
 
-**Resumo:** O Erro Médio Absoluto (MAE) é uma métrica que avalia a precisão de previsões contínuas, calculando a média dos erros absolutos entre as previsões e os valores reais.
+**Resumo:** A matriz de confusão é a métrica mais adequada para avaliar a precisão de modelos de classificação, pois detalha os tipos de erros cometidos pelo modelo (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos).
 
 **[Pergunta](readme_perguntas.md#questão-16)**
 
@@ -234,9 +234,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 17
 
-**Resposta:** A) Amazon SageMaker
+**Resposta:** A) APIs de moderação
 
-**Resumo:** O Amazon SageMaker é um serviço da AWS que permite construir, treinar e implantar modelos de machine learning de forma rápida e fácil.
+**Resumo:** APIs de moderação, como o Amazon Rekognition Content Moderation, são a solução mais eficaz. Essas APIs analisam as imagens em tempo real e sinalizam conteúdo inadequado, garantindo uma experiência segura para o usuário.
 
 **[Pergunta](readme_perguntas.md#questão-17)**
 
@@ -244,9 +244,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 18
 
-**Resposta:** C) BLEU
+**Resposta:** B) Recurso de registro de dados de invocação do Bedrock
 
-**Resumo:** BLEU (Bilingual Evaluation Understudy) é uma métrica usada para avaliar a qualidade de texto traduzido automaticamente comparando-o com uma ou mais traduções de referência.
+**Resumo:** O Bedrock possui um recurso específico para registrar dados de invocação, capturando as entradas e saídas do modelo para cada solicitação.
 
 **[Pergunta](readme_perguntas.md#questão-18)**
 
@@ -254,9 +254,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 19
 
-**Resposta:** C) Amazon Rekognition
+**Resposta:** A) SageMaker Batch Transform
 
-**Resumo:** O Amazon Rekognition é um serviço da AWS que facilita a análise de imagens e vídeos para identificar objetos, pessoas, texto, cenas e atividades.
+**Resumo:** O SageMaker Batch Transform foi projetado para executar inferências em grandes conjuntos de dados em modo batch, processando os dados em massa e armazenando os resultados no S3. É ideal para cenários onde as previsões não precisam ser acessadas imediatamente.
 
 **[Pergunta](readme_perguntas.md#questão-19)**
 
@@ -264,9 +264,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 20
 
-**Resposta:** C) F1-Score
+**Resposta:** A) Embeddings
 
-**Resumo:** O F1-Score é uma métrica de avaliação que considera tanto a precisão quanto o recall, sendo especialmente útil para conjuntos de dados desbalanceados.
+**Resumo:** Embeddings são representações numéricas densas de palavras, frases ou objetos em um espaço vetorial. Eles capturam o significado, os relacionamentos e o contexto de entidades do mundo real, ajudando os modelos de IA a entender e processar informações textuais.
 
 **[Pergunta](readme_perguntas.md#questão-20)**
 
@@ -274,9 +274,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 21
 
-**Resposta:** B) Amazon Comprehend
+**Resposta:** B) Adaptação de domínio por meio de ajuste fino
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para encontrar insights e relacionamentos em textos.
+**Resumo:** A adaptação de domínio por meio de ajuste fino é a solução ideal. Envolve treinar o modelo com dados específicos do domínio em questão (neste caso, artigos científicos), permitindo que ele compreenda e responda com precisão a termos científicos complexos.
 
 **[Pergunta](readme_perguntas.md#questão-21)**
 
@@ -284,9 +284,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 22
 
-**Resposta:** D) ROUGE
+**Resposta:** A) Diminuir o valor da temperatura
 
-**Resumo:** ROUGE (Recall-Oriented Understudy for Gisting Evaluation) é uma métrica usada para avaliar a qualidade de resumos automáticos comparando-os com resumos de referência.
+**Resumo:** Diminuir o valor da temperatura reduz a aleatoriedade nas respostas do modelo, tornando as saídas mais determinísticas e consistentes para o mesmo prompt de entrada.
 
 **[Pergunta](readme_perguntas.md#questão-22)**
 
@@ -294,9 +294,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 23
 
-**Resposta:** D) Amazon Lex
+**Resposta:** A) Criação de uma função de serviço separada por equipe
 
-**Resumo:** O Amazon Lex é um serviço da AWS para construir interfaces de conversa em qualquer aplicação usando voz e texto.
+**Resumo:** A criação de uma função de serviço separada por equipe, com permissões restritas aos dados de seus clientes, garante o controle de acesso adequado e alinha-se ao princípio do privilégio mínimo.
 
 **[Pergunta](readme_perguntas.md#questão-23)**
 
@@ -304,9 +304,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 24
 
-**Resposta:** A) Acurácia
+**Resposta:** C) Guardrails do Bedrock e alarmes do CloudWatch
 
-**Resumo:** Acurácia é uma métrica de avaliação que mede a proporção de previsões corretas em relação ao total de previsões feitas.
+**Resumo:** Os guardrails do Bedrock podem filtrar informações confidenciais das respostas do modelo, enquanto os alarmes do CloudWatch podem notificar os administradores sobre quaisquer violações de política.
 
 **[Pergunta](readme_perguntas.md#questão-24)**
 
@@ -314,9 +314,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 25
 
-**Resposta:** C) Amazon Polly
+**Resposta:** A) Amazon Textract
 
-**Resumo:** O Amazon Polly é um serviço que transforma texto em fala realista, permitindo criar aplicações que falam e construir categorias inteiramente novas de produtos habilitados para fala.
+**Resumo:** O Amazon Textract é um serviço que extrai texto, incluindo texto manuscrito, de documentos digitalizados, como PDFs. É a escolha ideal para converter currículos em texto sem formatação.
 
 **[Pergunta](readme_perguntas.md#questão-25)**
 
@@ -324,9 +324,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 26
 
-**Resposta:** D) Recall
+**Resposta:** B) Adicionar uma descrição de função no prompt
 
-**Resumo:** Recall é uma métrica que avalia a capacidade de um modelo de encontrar todos os positivos reais em um conjunto de dados.
+**Resumo:** Adicionar uma descrição de função no prompt é a maneira mais simples e eficaz de orientar o modelo a adaptar seu estilo de resposta à idade do usuário.
 
 **[Pergunta](readme_perguntas.md#questão-26)**
 
@@ -334,9 +334,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 27
 
-**Resposta:** B) Amazon Comprehend
+**Resposta:** B) Testar o modelo em um conjunto de dados de referência rotulado
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para encontrar insights e relacionamentos em textos.
+**Resumo:** Testar o modelo em um conjunto de dados de referência rotulado é a abordagem padrão para avaliar a precisão de modelos de classificação de imagens.
 
 **[Pergunta](readme_perguntas.md#questão-27)**
 
@@ -344,9 +344,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 28
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Avaliar a justiça do modelo e garantir dados de treinamento representativos
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que todas as respostas listadas são válidas para a pergunta.
+**Resumo:** Avaliar a justiça do modelo e garantir dados de treinamento representativos e equilibrados são cruciais para uma implementação responsável, minimizando vieses e danos potenciais.
 
 **[Pergunta](readme_perguntas.md#questão-28)**
 
@@ -354,9 +354,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 29
 
-**Resposta:** A) Amazon Transcribe
+**Resposta:** C) Análise exploratória de dados (EDA)
 
-**Resumo:** O Amazon Transcribe é um serviço de transcrição automática de fala para texto, permitindo a conversão de arquivos de áudio em texto.
+**Resumo:** A análise exploratória de dados (EDA) envolve a análise de dados para entender sua distribuição, correlações e padrões. As ações descritas na pergunta se encaixam perfeitamente nessa fase.
 
 **[Pergunta](readme_perguntas.md#questão-29)**
 
@@ -364,9 +364,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 30
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** B) Modelos baseados em BERT
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que todas as respostas listadas são válidas para a pergunta.
+**Resumo:** Modelos baseados em BERT (Bidirectional Encoder Representations from Transformers) são ideais para prever palavras ausentes em frases, analisando o contexto antes e depois da lacuna.
 
 **[Pergunta](readme_perguntas.md#questão-30)**
 
@@ -374,9 +374,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 31
 
-**Resposta:** A) Amazon Translate
+**Resposta:** C) Amazon QuickSight com QuickSight Q
 
-**Resumo:** O Amazon Translate é um serviço de tradução automática de texto que oferece traduções rápidas e de alta qualidade entre diferentes idiomas.
+**Resumo:** O Amazon QuickSight com QuickSight Q é a solução ideal. O QuickSight é um serviço de business intelligence que permite criar visualizações, e o QuickSight Q, com sua capacidade de consulta em linguagem natural, automatiza a geração de gráficos com base em dados.
 
 **[Pergunta](readme_perguntas.md#questão-31)**
 
@@ -384,9 +384,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 32
 
-**Resposta:** B) Erro Médio Absoluto (MAE)
+**Resposta:** C) Associar as mensagens do usuário às suas intenções correspondentes
 
-**Resumo:** O Erro Médio Absoluto (MAE) é uma métrica que avalia a precisão de previsões contínuas, calculando a média dos erros absolutos entre as previsões e os valores reais.
+**Resumo:** Para a detecção de intenções, é fundamental associar as mensagens do usuário às suas intenções correspondentes, fornecendo ao modelo os dados necessários para aprender os padrões de linguagem que indicam a intenção do usuário.
 
 **[Pergunta](readme_perguntas.md#questão-32)**
 
@@ -394,9 +394,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 33
 
-**Resposta:** A) Amazon SageMaker
+**Resposta:** B) Reduzir o número de tokens no prompt
 
-**Resumo:** O Amazon SageMaker é um serviço da AWS que permite construir, treinar e implantar modelos de machine learning de forma rápida e fácil.
+**Resumo:** Reduzir o número de tokens no prompt, ou seja, usar menos exemplos ou simplificar a entrada, diminui a quantidade de dados processados a cada invocação, levando a custos mensais mais baixos.
 
 **[Pergunta](readme_perguntas.md#questão-33)**
 
@@ -404,9 +404,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 34
 
-**Resposta:** C) BLEU
+**Resposta:** B) Alucinação em IA
 
-**Resumo:** BLEU (Bilingual Evaluation Understudy) é uma métrica usada para avaliar a qualidade de texto traduzido automaticamente comparando-o com uma ou mais traduções de referência.
+**Resumo:** Alucinação em IA refere-se à geração de informações que parecem plausíveis, mas não têm base nos dados de treinamento, resultando em conteúdo fabricado ou incorreto.
 
 **[Pergunta](readme_perguntas.md#questão-34)**
 
@@ -414,9 +414,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 35
 
-**Resposta:** C) Amazon Rekognition
+**Resposta:** A) Reconstruir o modelo sem dados confidenciais
 
-**Resumo:** O Amazon Rekognition é um serviço da AWS que facilita a análise de imagens e vídeos para identificar objetos, pessoas, texto, cenas e atividades.
+**Resumo:** A única maneira de garantir que o modelo não use dados confidenciais durante a inferência é reconstruí-lo sem esses dados no conjunto de dados de treinamento. As outras opções protegem os dados, mas não impedem que o modelo os utilize se estiverem presentes nos dados de treinamento.
 
 **[Pergunta](readme_perguntas.md#questão-35)**
 
@@ -424,9 +424,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 36
 
-**Resposta:** C) F1-Score
+**Resposta:** A) Métrica BLEU
 
-**Resumo:** O F1-Score é uma métrica de avaliação que considera tanto a precisão quanto o recall, sendo especialmente útil para conjuntos de dados desbalanceados.
+**Resumo:** A métrica BLEU é amplamente utilizada para avaliar a qualidade de traduções automáticas, comparando a tradução gerada com uma ou mais traduções de referência.
 
 **[Pergunta](readme_perguntas.md#questão-36)**
 
@@ -434,9 +434,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 37
 
-**Resposta:** B) Amazon Comprehend
+**Resposta:** B) Agentes do Bedrock
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para encontrar insights e relacionamentos em textos.
+**Resumo:** A principal vantagem dos agentes do Bedrock é a capacidade de automatizar tarefas repetitivas e orquestrar fluxos de trabalho, levando a tempos de resposta mais rápidos e eficientes no suporte ao cliente.
 
 **[Pergunta](readme_perguntas.md#questão-37)**
 
@@ -444,9 +444,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 38
 
-**Resposta:** D) ROUGE
+**Resposta:** B) Pré-treinamento contínuo
 
-**Resumo:** ROUGE (Recall-Oriented Understudy for Gisting Evaluation) é uma métrica usada para avaliar a qualidade de resumos automáticos comparando-os com resumos de referência.
+**Resumo:** O pré-treinamento contínuo permite que o modelo continue aprendendo com novos dados, o que pode levar a uma maior precisão e capacidade de adaptação a diferentes tarefas.
 
 **[Pergunta](readme_perguntas.md#questão-38)**
 
@@ -454,9 +454,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 39
 
-**Resposta:** D) Amazon Lex
+**Resposta:** A) Tokens
 
-**Resumo:** O Amazon Lex é um serviço da AWS para construir interfaces de conversa em qualquer aplicação usando voz e texto.
+**Resumo:** Tokens são as unidades básicas de texto que os modelos de IA generativa processam, podendo ser palavras, subpalavras ou caracteres.
 
 **[Pergunta](readme_perguntas.md#questão-39)**
 
@@ -464,9 +464,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 40
 
-**Resposta:** A) Acurácia
+**Resposta:** A) Número de tokens processados durante a inferência
 
-**Resumo:** Acurácia é uma métrica de avaliação que mede a proporção de previsões corretas em relação ao total de previsões feitas.
+**Resumo:** O número de tokens processados durante a inferência é o principal fator de custo, pois os modelos de linguagem geralmente cobram com base na quantidade de texto processado.
 
 **[Pergunta](readme_perguntas.md#questão-40)**
 
@@ -474,9 +474,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 41
 
-**Resposta:** C) Amazon Polly
+**Resposta:** C) Criar um endpoint VPC para o S3
 
-**Resumo:** O Amazon Polly é um serviço que transforma texto em fala realista, permitindo criar aplicações que falam e construir categorias inteiramente novas de produtos habilitados para fala.
+**Resumo:** Criar um endpoint VPC para o S3 garante um fluxo de dados seguro e eficiente entre os notebooks do SageMaker Studio e o S3, mantendo o tráfego de dados dentro da rede da AWS.
 
 **[Pergunta](readme_perguntas.md#questão-41)**
 
@@ -484,9 +484,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 42
 
-**Resposta:** D) Recall
+**Resposta:** A) Amazon S3
 
-**Resumo:** Recall é uma métrica que avalia a capacidade de um modelo de encontrar todos os positivos reais em um conjunto de dados.
+**Resumo:** O Amazon S3 é a solução mais adequada para armazenar e gerenciar conjuntos de dados, incluindo aqueles usados para validação de modelos.
 
 **[Pergunta](readme_perguntas.md#questão-42)**
 
@@ -494,9 +494,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 43
 
-**Resposta:** B) Amazon Comprehend
+**Resposta:** A) Amazon Transcribe
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para encontrar insights e relacionamentos em textos.
+**Resumo:** O Amazon Transcribe é um serviço da AWS que pode ser usado para transcrever áudio em texto.
 
 **[Pergunta](readme_perguntas.md#questão-43)**
 
@@ -504,9 +504,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 44
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Avaliar e mitigar vieses nos dados de treinamento
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que todas as respostas listadas são válidas para a pergunta.
+**Resumo:** Avaliar e mitigar vieses nos dados de treinamento é essencial para garantir que um modelo de IA não esteja enviesado.
 
 **[Pergunta](readme_perguntas.md#questão-44)**
 
@@ -514,9 +514,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 45
 
-**Resposta:** A) Amazon Transcribe
+**Resposta:** B) Usar técnicas de data augmentation
 
-**Resumo:** O Amazon Transcribe é um serviço de transcrição automática de fala para texto, permitindo a conversão de arquivos de áudio em texto.
+**Resumo:** Usar técnicas de data augmentation pode aumentar a quantidade de dados de treinamento disponíveis, melhorando a robustez do modelo.
 
 **[Pergunta](readme_perguntas.md#questão-45)**
 
@@ -524,9 +524,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 46
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Amazon Translate
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que todas as respostas listadas são válidas para a pergunta.
+**Resumo:** O Amazon Translate é um serviço da AWS que pode ser usado para traduzir texto entre diferentes idiomas.
 
 **[Pergunta](readme_perguntas.md#questão-46)**
 
@@ -534,9 +534,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 47
 
-**Resposta:** A) Amazon Translate
+**Resposta:** A) Testar o modelo com dados de teste variados e representativos
 
-**Resumo:** O Amazon Translate é um serviço de tradução automática de texto que oferece traduções rápidas e de alta qualidade entre diferentes idiomas.
+**Resumo:** Testar o modelo com dados de teste variados e representativos garante que ele seja robusto a diferentes tipos de entradas.
 
 **[Pergunta](readme_perguntas.md#questão-47)**
 
@@ -544,17 +544,19 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 48
 
-**Resposta:** B) Erro Médio Absoluto (MAE)
+**Resposta:** A) Usar validação cruzada durante o treinamento
 
-**Resumo:** O Erro Médio Absoluto (MAE) é uma métrica que avalia a precisão de previsões
+**Resumo:** Usar validação cruzada durante o treinamento pode melhorar a generalização de um modelo de IA.
+
+**[Pergunta](readme_perguntas.md#questão-48)**
 
 ---
 
 ### Questão 49
 
-**Resposta:** A) Amazon SageMaker
+**Resposta:** A) Amazon Comprehend
 
-**Resumo:** O Amazon SageMaker é um serviço da AWS que permite construir, treinar e implantar modelos de machine learning de forma escalável e segura.
+**Resumo:** O Amazon Comprehend é um serviço da AWS que pode ser usado para analisar sentimentos em textos.
 
 **[Pergunta](readme_perguntas.md#questão-49)**
 
@@ -562,9 +564,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 50
 
-**Resposta:** C) BLEU
+**Resposta:** A) Otimizar o modelo para inferência
 
-**Resumo:** BLEU (Bilingual Evaluation Understudy) é uma métrica usada para avaliar a qualidade de texto traduzido automaticamente comparando-o com uma ou mais traduções de referência.
+**Resumo:** Otimizar o modelo para inferência garante que ele seja eficiente em termos de tempo de inferência.
 
 **[Pergunta](readme_perguntas.md#questão-50)**
 
@@ -572,9 +574,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 51
 
-**Resposta:** C) Amazon Rekognition
+**Resposta:** A) Usar técnicas de oversampling ou undersampling
 
-**Resumo:** O Amazon Rekognition é um serviço de análise de imagens e vídeos que pode identificar objetos, pessoas, texto, cenas e atividades, além de detectar qualquer conteúdo inadequado.
+**Resumo:** Usar técnicas de oversampling ou undersampling pode ajudar a lidar com dados desbalanceados em um problema de classificação.
 
 **[Pergunta](readme_perguntas.md#questão-51)**
 
@@ -582,9 +584,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 52
 
-**Resposta:** A) Amazon SageMaker
+**Resposta:** A) Amazon Lex
 
-**Resumo:** O Amazon SageMaker facilita a construção, treinamento e implantação de modelos de machine learning, oferecendo uma plataforma completa para desenvolvedores e cientistas de dados.
+**Resumo:** O Amazon Lex é um serviço da AWS que pode ser usado para criar chatbots.
 
 **[Pergunta](readme_perguntas.md#questão-52)**
 
@@ -592,9 +594,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 53
 
-**Resposta:** C) Coeficiente de Determinação (R²)
+**Resposta:** A) Usar serviços de nuvem como o Amazon SageMaker
 
-**Resumo:** O Coeficiente de Determinação (R²) é uma métrica que indica a proporção da variância dos dados que é explicada pelo modelo de regressão, variando de 0 a 1.
+**Resumo:** Usar serviços de nuvem como o Amazon SageMaker garante que um modelo de IA seja escalável.
 
 **[Pergunta](readme_perguntas.md#questão-53)**
 
@@ -602,9 +604,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 54
 
-**Resposta:** A) Amazon Personalize
+**Resposta:** A) Ajustar os hiperparâmetros do modelo
 
-**Resumo:** O Amazon Personalize é um serviço de machine learning que permite criar recomendações personalizadas para usuários, como produtos, vídeos ou músicas.
+**Resumo:** Ajustar os hiperparâmetros do modelo pode melhorar a precisão de um modelo de classificação.
 
 **[Pergunta](readme_perguntas.md#questão-54)**
 
@@ -612,9 +614,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 55
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Amazon Polly
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que a resposta abrange múltiplos aspectos ou serviços mencionados.
+**Resumo:** O Amazon Polly é um serviço da AWS que pode ser usado para sintetizar voz a partir de texto.
 
 **[Pergunta](readme_perguntas.md#questão-55)**
 
@@ -622,9 +624,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 56
 
-**Resposta:** A) Amazon Fraud Detector
+**Resposta:** A) Implementar medidas de segurança como criptografia e controle de acesso
 
-**Resumo:** O Amazon Fraud Detector é um serviço que facilita a identificação de atividades fraudulentas em tempo real usando machine learning.
+**Resumo:** Implementar medidas de segurança como criptografia e controle de acesso garante que um modelo de IA seja seguro.
 
 **[Pergunta](readme_perguntas.md#questão-56)**
 
@@ -632,9 +634,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 57
 
-**Resposta:** A) Índice de Silhueta
+**Resposta:** A) Usar técnicas de explicabilidade como LIME ou SHAP
 
-**Resumo:** O Índice de Silhueta é uma métrica usada para avaliar a qualidade de clusters em análise de agrupamento, medindo o quão similar um objeto é ao seu próprio cluster em comparação com outros clusters.
+**Resumo:** Usar técnicas de explicabilidade como LIME ou SHAP pode melhorar a interpretabilidade de um modelo de IA.
 
 **[Pergunta](readme_perguntas.md#questão-57)**
 
@@ -642,9 +644,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 58
 
-**Resposta:** A) Amazon SageMaker
+**Resposta:** A) Amazon SageMaker Canvas
 
-**Resumo:** O Amazon SageMaker oferece uma plataforma completa para construir, treinar e implantar modelos de machine learning, facilitando o trabalho de desenvolvedores e cientistas de dados.
+**Resumo:** O Amazon SageMaker Canvas é um serviço da AWS que permite criar modelos de machine learning sem precisar escrever código.
 
 **[Pergunta](readme_perguntas.md#questão-58)**
 
@@ -652,9 +654,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 59
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Otimizar o modelo para eficiência de recursos
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que a resposta abrange múltiplos aspectos ou serviços mencionados.
+**Resumo:** Otimizar o modelo para eficiência de recursos garante que ele seja eficiente em termos de uso de recursos.
 
 **[Pergunta](readme_perguntas.md#questão-59)**
 
@@ -662,9 +664,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 60
 
-**Resposta:** A) Amazon Comprehend
+**Resposta:** A) Testar o modelo com dados de teste variados e representativos
 
-**Resumo:** O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para descobrir insights e relacionamentos em textos.
+**Resumo:** Testar o modelo com dados de teste variados e representativos pode melhorar a robustez de um modelo de IA.
 
 **[Pergunta](readme_perguntas.md#questão-60)**
 
@@ -672,9 +674,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 61
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Amazon Lookout for Metrics
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que a resposta abrange múltiplos aspectos ou serviços mencionados.
+**Resumo:** O Amazon Lookout for Metrics é um serviço da AWS que pode ser usado para detectar anomalias em dados.
 
 **[Pergunta](readme_perguntas.md#questão-61)**
 
@@ -682,9 +684,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 62
 
-**Resposta:** A) Amazon Forecast
+**Resposta:** A) Implementar um pipeline de atualização contínua de dados
 
-**Resumo:** O Amazon Forecast é um serviço que usa machine learning para gerar previsões de séries temporais com base em dados históricos.
+**Resumo:** Implementar um pipeline de atualização contínua de dados garante que um modelo de IA seja atualizado com novos dados.
 
 **[Pergunta](readme_perguntas.md#questão-62)**
 
@@ -692,9 +694,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 63
 
-**Resposta:** A) Índice de Silhueta
+**Resposta:** A) Ajustar os hiperparâmetros do modelo
 
-**Resumo:** O Índice de Silhueta é uma métrica usada para avaliar a qualidade de clusters em análise de agrupamento, medindo o quão similar um objeto é ao seu próprio cluster em comparação com outros clusters.
+**Resumo:** Ajustar os hiperparâmetros do modelo pode melhorar a precisão de um modelo de regressão.
 
 **[Pergunta](readme_perguntas.md#questão-63)**
 
@@ -702,9 +704,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 64
 
-**Resposta:** A) Amazon SageMaker
+**Resposta:** A) Amazon Personalize
 
-**Resumo:** O Amazon SageMaker é um serviço da AWS que permite construir, treinar e implantar modelos de machine learning de forma escalável e segura.
+**Resumo:** O Amazon Personalize é um serviço da AWS que pode ser usado para criar modelos de recomendação.
 
 **[Pergunta](readme_perguntas.md#questão-64)**
 
@@ -712,9 +714,9 @@ Este documento contém as respostas para as questões do exame de certificação
 
 ### Questão 65
 
-**Resposta:** D) Todas as anteriores
+**Resposta:** A) Otimizar o modelo para eficiência de custo
 
-**Resumo:** Todas as opções fornecidas são corretas, indicando que a resposta abrange múltiplos aspectos ou serviços mencionados.
+**Resumo:** Otimizar o modelo para eficiência de custo garante que ele seja eficiente em termos de custo.
 
 **[Pergunta](readme_perguntas.md#questão-65)**
 
