@@ -1,6 +1,6 @@
-## Respostas para o Exame de Certificação AWS Certified AI Practitioner (AIF-C01)
+## Respostas do simulado para o Exame de Certificação AWS Certified AI Practitioner (AIF-C01)
 
-Este documento contém as respostas para as questões do exame de certificação AWS Certified AI Practitioner (AIF-C01).
+Esta página contém as respostas para as questões do exame de certificação AWS Certified AI Practitioner (AIF-C01).
 
 ### Índice
 

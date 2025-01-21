@@ -27,7 +27,7 @@ Bem-vindo ao repositório que servirá como seu guia completo para a certificaç
 - [Plano de Estudo Sugerido](#plano-de-estudo-sugerido)
 - [Dicas para o Exame](#dicas-para-o-exame)
 - [📋 Resumo Rápido](#resumo-rápido)
-- [❓ Simulado da Prova](#exemplos-de-perguntas-e-respostas)
+- [❓ Simulado da Prova](#simulado-da-prova)
 - [Links Úteis](#links-úteis)
 - [MIT License](#licença)
 
@@ -139,7 +139,7 @@ Para uma preparação eficaz, recomenda-se os seguintes recursos:
 
 ## Resumo Rápido
 
-Confira um resumo rápido de conceitos e tópicos essenciais para o exame na página [Resumo Rápido](contents/readme_resumo_rapido.md).
+Confira um resumo rápido de conceitos e tópicos essenciais para o exame na página [ResumoRápido](contents/readme_resumo_rapido.md).
 
 ## Simulado da Prova
 
