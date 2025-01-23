@@ -1,6 +1,8 @@
 <h1 align="center">
     <br>
     Guia Definitivo para o Exame de Certificação AWS Certified AI Practitioner | AIF-C01
+    <br>
+    Inclui Simulado de 65 Questões e Resumo Rápido
 </h1>
 
 
@@ -16,7 +18,7 @@
 
 <br />
 
-Bem-vindo ao repositório que servirá como seu guia completo para a certificação AWS Certified AI Practitioner. Aqui, você encontrará informações essenciais sobre o exame, recursos de estudo recomendados e uma estrutura de aprendizado para auxiliá-lo em sua jornada rumo à certificação.
+Bem-vindo ao repositório que servirá como seu guia completo para a certificação AWS Certified AI Practitioner. Aqui, você encontrará informações essenciais sobre o exame, recursos de estudo recomendados e uma estrutura de aprendizado para auxiliá-lo em sua jornada rumo à certificação. Confira também nosso [Simulado de 65 Questões](#simulado-do-exame) e o [Resumo Rápido](#resumo-rápido) para reforçar seus estudos.
 
 ## 📌 Índice
 
