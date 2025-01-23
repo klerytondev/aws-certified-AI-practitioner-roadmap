@@ -12,6 +12,7 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
     5. [Implementação Responsável de IA](#implementação-responsável-de-ia)
     6. [Casos de Uso de Negócios](#casos-de-uso-de-negócios)
     7. [Considerações de Custo](#considerações-de-custo)
+    8. [Segurança e Governança](#segurança-e-governança)
 
 ---
 
@@ -84,6 +85,18 @@ Este documento fornece um resumo detalhado dos principais conceitos abordados na
 
 - **Otimização de Custo no Bedrock**: Usar uma base de conhecimento permite que o modelo acesse informações relevantes dos PDFs sem incluir todo o conteúdo no prompt, tornando-o mais econômico.
 - **Tipos de Instância para Treinamento**: As instâncias da série TRN, especialmente as instâncias trn1, são otimizadas especificamente para treinar modelos grandes e são alimentadas por chips AWS Trainium. Essas instâncias são projetadas para eficiência energética.
+
+### Segurança e Governança
+
+Esses serviços ajudam a proteger dados, monitorar atividades e manter a conformidade com regulamentações.
+
+- **AWS Identity and Access Management (IAM)**: Serviço que permite gerenciar identidades e permissões para acessar recursos da AWS de forma segura. Ele suporta práticas como controle de acesso baseado em funções (RBAC) e políticas detalhadas.
+- **AWS Key Management Service (KMS)**: Serviço de gerenciamento de chaves criptográficas para proteger dados confidenciais. Ele pode ser integrado a outros serviços da AWS, como S3 e DynamoDB, para criptografia de dados em repouso.
+- **Amazon Macie**: Serviço que usa ML para identificar e proteger dados sensíveis, como informações de identificação pessoal (PII) e documentos confidenciais, em buckets S3. Ele ajuda a mitigar riscos de exposição.
+- **AWS PrivateLink**: Permite conectar serviços em diferentes VPCs e à AWS de forma segura, usando a rede interna da AWS, sem expor o tráfego à internet pública.
+- **Amazon Inspector**: Serviço automatizado que avalia a segurança de workloads da AWS, como instâncias EC2 e containers. Ele identifica vulnerabilidades e desvios de configuração com base em benchmarks de segurança.
+- **AWS Audit Manager**: Ajuda a automatizar o processo de auditoria, coletando evidências para conformidade com regulamentações como GDPR e HIPAA. Ideal para gerenciar auditorias de forma eficiente.
+- **AWS Artifact**: Repositório de relatórios de conformidade e contratos da AWS. Ele fornece documentos necessários para demonstrar conformidade com padrões como ISO 27001, SOC 2 e mais.
 
 ---
 
